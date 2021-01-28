@@ -1,0 +1,17 @@
+{
+  "name": "mocha_testing",
+  "version": "1.0.0",
+  "description": "Test cases using Mocha",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha './specs/*.spec.js'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^8.2.1"
+  },
+  "dependencies": {
+    "chai": "^4.2.0"
+  }
+}
